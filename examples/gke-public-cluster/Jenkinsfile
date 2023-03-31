@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'jenkins', url: 'https://github.com/Zhakyp01/gke.git'
+                git branch: 'master', credentialsId: 'jenkins', url: 'https://github.com/Zhakyp01/terraform-google-gke.git'
             }
         }
         stage('Terraform Init') {
