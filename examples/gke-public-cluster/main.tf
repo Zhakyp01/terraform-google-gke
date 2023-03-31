@@ -23,6 +23,7 @@ provider "google" {
 }
 
 provider "google-beta" {
+  credentials = var.cred
   version = "~> 3.43.0"
   project = var.project
   region  = var.region
