@@ -3,7 +3,7 @@ pipeline {
     environment {
         GCLOUD_CREDS = credentials('cred')
         PROJECT_ID = 	'student-project-379814'
-        CLUSTER_NAME = 'private-cluster'
+        CLUSTER_NAME = 'example-cluster'
         LOCATION = 'us-west1-a'
         CREDENTIALS_ID = 'student-project-379814'
     }
